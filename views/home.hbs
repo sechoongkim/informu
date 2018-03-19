@@ -1,0 +1,27 @@
+<h1>480Chan - Image Board!</h1>
+
+<h2 style="color: red">{{error}}<h2>
+
+
+<form method="POST" action="">
+<div>Image Post Title: <input type="text" name="title"></div>
+
+<div>Image 1 URL:<input type="text" name="imgurl1">, Caption:<input type="text" name="imgcap1"></div>
+
+<div>Image 2 URL:<input type="text" name="imgurl2">, Caption:<input type="text" name="imgcap2"></div>
+
+<div>Image 3 URL:<input type="text" name="imgurl3">, Caption:<input type="text" name="imgcap3"></div>
+
+<input type=submit value="Submit">
+</form>
+
+
+<ul>
+{{#each imageposts}}
+	<h1><a href="/image-posts/{{this.slug}}">{{this.title}}</a></h1>
+	{{#each this.images as |n|}}
+		<li style="list-style-type: none;">{{n.caption}}</li>
+		<li style="list-style-type: none;"><img src="{{n.url}}"></li>
+	{{/each}}
+{{/each}}
+</ul>

@@ -1,0 +1,25 @@
+
+<h2 style="color: red">{{error}}<h2>
+
+<form method="POST" action="/image-posts/delete/{{slug}}">
+<ul>
+{{#each imageposts}}
+	<h1>{{this.title}}</h1>
+	{{#each this.images as |n|}} 
+	<div>
+    	<input type="checkbox" id="subscribeNews" name="subscribe" value="{{n._id}}">
+    	<label for="subscribeNews">Delete?</label>
+  	</div>
+		<li style="list-style-type: none;">{{n.caption}}</li>
+		<li style="list-style-type: none;"><img src="{{n.url}}"></li>
+	{{/each}}
+{{/each}}
+</ul>
+<button type="submit">Delete</button>
+</form>
+
+
+<form method="POST" action="/image-posts/{{slug}}">
+	<div>Image 1 URL:<input type="text" name="imgurl1">, Caption:<input type="text" name="imgcap1"></div>
+	<input type=submit value="Submit">
+</form>
