@@ -476,3 +476,52 @@ p.introimg {
     line-height: 1em;
 }
 
+
+
+
+.content-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.content-wrapper img{
+    width: 100%;
+}
+
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+
+.text-wrapper h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 10vw;
+    font-family: 'arial-black', cursive;
+}
+
+
+.yo{
+    padding-bottom: 250px;
+}
+
+
+.laptop{
+    margin-top: -100px;
+}
+
+#orange{
+    color: orange;
+}
+
+.bridge{
+    margin-top: -200px;
+}
+
+
+
+
+
+
+
