@@ -568,35 +568,37 @@ body {
 }*/
 .wrapper {
   width: 100%;
-  max-width: 800px;
+  width:100%;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 200px;
 }
 .content {
-  padding: 0 15px;
   width: auto;
   margin-top: -68px !important;
+
 }
 /*.content h1 {
   margin-top: 0;
 }*/
 
+
+
 .navbar {
-  padding: 10px;
+
+  margin-bottom: 0.2em;
+  border-bottom: 1px solid #aaa !important;
+  padding: 0.5em 0 0.17em 0;
+  color: #000;
+  height: 80px;
   width: auto;
   background-color: white;
-  color: #fff;
-  border-radius: 15px 50px 30px;
+    position: sticky;
+  top: 0;
+  border-style: outset;
 }
 
-/* The sticky */
-.navbar {
-  /*position: -webkit-sticky;*/
-  position: sticky;
-  top: 0;
-}
 
 nav ul {
   text-align: center;
@@ -624,9 +626,10 @@ nav ul li a:hover {
 
 
 .logo{
-    margin-top: 10px;
-    width:100px;
-    height:30px;
+    margin-left: -350px; 
+    margin-top: 20px;
+    width:120px;
+    height:40px;
     align: left;
     float: left;
 }
@@ -641,8 +644,51 @@ nav ul li a:hover {
   padding: 5px;
 }
 
+.ul-wrap{
+    padding-left: 35%;
+}
 
+.nav-item{
+    padding-top:10px;
+}
 
+.myButton {
+    background-color:#FC4A1A;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+    background-color:#FC4A1A;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+        
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+.thing{
+   font-family: 'open sans',arial,sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
 
 .footer-distributed{
     background-color: #292c2f;
