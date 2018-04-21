@@ -763,6 +763,8 @@ nav ul li a:hover {
 /* Footer links */
 
 .footer-distributed .footer-links{
+    font-size: 18px;
+    word-spacing: 30px;
     color:  #ffffff;
     margin: 0 0 10px;
     padding: 0;
@@ -875,6 +877,10 @@ nav ul li a:hover {
     padding: 15px 50px;
     font-weight: bold;
     float: right;
+}
+
+.contact{
+    font-size: 25px;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
