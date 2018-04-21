@@ -660,6 +660,7 @@ nav ul li a:hover {
 }
 
 .myButton {
+    height: 16px;
     background-color:#FC4A1A;
     -moz-border-radius:28px;
     -webkit-border-radius:28px;
@@ -668,7 +669,7 @@ nav ul li a:hover {
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
-    font-family:Arial;
+   font-family: 'open sans',arial,sans-serif;
     font-size:17px;
     padding:16px 31px;
     text-decoration:none;
@@ -697,6 +698,36 @@ nav ul li a:hover {
     font-size: 14px;
 }
 
+.leftcenterText {
+    position: absolute;
+    background-repeat: no-repeat;
+    text-align: center; }
+
+.pg1-2-txt {
+    font-size: 5px;
+   font-family: 'open sans',arial,sans-serif;
+    font-weight: 100;
+    font-size: 5px;    border: 1px solid #fff !important;
+    background-color: white;
+    margin-left: 500px;
+    margin-right:85px;
+     }
+
+.mu3{
+    padding-left: 90px;
+}
+
+.three-heads{
+    font-size:20px;
+}
+
+.spaceOut{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+
 .footer-distributed{
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -709,6 +740,7 @@ nav ul li a:hover {
     margin-top: 80px;
     overflow: hidden;
 }
+
 
 /* Footer left */
 
