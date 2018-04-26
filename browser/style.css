@@ -747,13 +747,29 @@ nav ul li a:hover {
     float: left;
 }
 
+.special{
+    background-color: white;
+    color: black;
+    border: 2px solid #ff5504;
+}
 .canvas{
     margin-left: -297px;
     margin-top: 100px;
     width: 80%;
     height: 110%;
 }
-
+.colorDots{
+    float: left;
+    margin-top: 340px;
+    margin-left:-150px;
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
 
 .footer-distributed{
     margin-bottom: -360px;
