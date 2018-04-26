@@ -493,8 +493,7 @@ p.introimg {
 
 .text-wrapper{
     width: 100%;
-    position: relative;
-    margin-top: -40%;
+    margin-top: -500px;
 }
 
 .text-wrapper h1{
@@ -507,10 +506,11 @@ p.introimg {
 
 .yo{
     padding-bottom: 550px;
+
 }
 
 .live{
-
+    margin-top: 100px;
 }
 
 .laptop{
@@ -719,8 +719,6 @@ nav ul li a:hover {
     font-size: 5px;
    font-family: 'open sans',arial,sans-serif;
     font-weight: 100;
-    font-size: 5px;    border: 1px solid #fff !important;
-    background-color: white;
     margin-left: 500px;
     margin-right:85px;
      }
@@ -731,13 +729,23 @@ nav ul li a:hover {
 
 .three-heads{
     font-size:20px;
+    margin-right: 410px;
 }
 
+.ultimate{
+    padding-right: 10px;
+}
+.language{
+    text-align: left;
+}
 .spaceOut{
-    margin-right: 20px;
+
+    margin-right: 40px;
     margin-top: 20px;
 }
-
+.set{
+    float: left;
+}
 
 .canvas{
     margin-left: -297px;
